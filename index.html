@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="./styles.css/style.css">
+</head>
+<body>
+    <div class="background">
+        <header>
+            <nav class="cabecalho">
+                <ul class="cabecalho__menu">
+                    <li><a class="cabecalho__menu__link" href="index.html">
+                        <img class="cabecalho__menu__link__logo" src="./assets/icon-house.svg" alt="logo de uma casa em cor aquamarine">
+                        Home
+                    </a></li>
+                    <li><a class="cabecalho__menu__link" href="habilidades.html">
+                        <img class="cabecalho__menu__link__logo" src="./assets/icon-pc.svg" alt="logo de um computador em cor aquamarine">
+                        Habilidades
+                    </a></li>
+                    <li><a class="cabecalho__menu__link" href="projetos.html">
+                        <img class="cabecalho__menu__link__logo" src="./assets/icon-coracao.svg" alt="logo de um coração em cor aquamarine">
+                        Projetos
+                    </a></li>
+                </ul>
+            </nav>
+
+            <nav class="cabecalho">
+                <ul class="cabecalho__menu--mobile invisivel">
+                    <li><a class="cabecalho__menu__link" href="index.html">
+                        <img class="cabecalho__menu__link__logo" src="./assets/icon-house.svg" alt="logo de uma casa em cor aquamarine">
+                        Home
+                    </a></li>
+                    <li><a class="cabecalho__menu__link" href="habilidades.html">
+                        <img class="cabecalho__menu__link__logo" src="./assets/icon-pc.svg" alt="logo de um computador em cor aquamarine">
+                        Habilidades
+                    </a></li>
+                    <li><a class="cabecalho__menu__link" href="projetos.html">
+                        <img class="cabecalho__menu__link__logo" src="./assets/icon-coracao.svg" alt="logo de um coração em cor aquamarine">
+                        Projetos
+                    </a></li>
+                </ul>
+            </nav>
+
+            <button class="botao__menu">
+                <img class="botao__menu__imagem" src="assets/icon-menu.svg" alt="">
+            </button>
+        </header>
+        <main class="apresentacao">
+            <section class="apresentacao__conteudo">
+                <h1 class="apresentacao__conteudo__titulo titulo-principal" id="nome-autor"></h1>
+                <p class="apresentacao__conteudo__texto">Nascido em Imperatriz-MA e apaixonado por tecnologia. Formando do programa Trilhas Inova e graduando em Análise e Desenvolvimento de Sistemas.</p>
+                <div class="apresentacao__links">
+                        <h2 class="apresentacao__links__subtitulo">Acesse minhas redes:</h2>
+                        <a class="links__botao" href="https://github.com/marcoteixeira-m47t" target="_blank">
+                            <img src="./assets/icon-github.svg" alt="">                    
+                            GitHub
+                        </a>
+                        <a class="links__botao" href="https://www.linkedin.com/in/marcoteixeiradev/" target="_blank">
+                            <img src="./assets/icon-linkedin.svg" alt="">
+                            Linkedin
+                        </a>
+                </div>
+            </section>
+            <img class="apresentacao__imagem" src="./assets/marco-teixeira.png" alt="foto de marco teixeira com uma camisa amrela">
+        </main>
+       
+
+
+        <script src="js/efeitoHome.js"></script>
+        <script src="js/menuMobile.js"></script>
+    </div>
+    <footer class="linha-rodape">
+        <div class="rodape">
+            <img class="rodape__logo" src="./assets/logo-alura.svg" alt="logo do alura include">
+            <p>Desenvolvido por Marco Teixeira.</p>
+        </div>
+    </footer>
+</body>
+</html>
